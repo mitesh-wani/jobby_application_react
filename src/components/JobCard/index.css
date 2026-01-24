@@ -1,0 +1,48 @@
+.job-card {
+  background-color: #272727;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  gap: 15px;
+}
+
+.header img {
+  width: 50px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.company-logo-img {
+  width: 10%;
+  height: 10%;
+  margin: 10px;
+}
+.job-img-card {
+  display: flex;
+  align-items: center;
+}
+.description-heading {
+  font-size: 19px;
+}
+.info-location-type-cart {
+  display: flex;
+  justify-content: space-around;
+}
+.type-icon-text {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+}

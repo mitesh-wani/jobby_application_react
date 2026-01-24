@@ -1,0 +1,263 @@
+.job-details-container {
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.job-card {
+  background-color: #272727;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.job-header {
+  display: flex;
+  gap: 20px;
+}
+
+.company-logo {
+  width: 60px;
+}
+
+.job-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.description-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description-header a {
+  color: #6366f1;
+  text-decoration: none;
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+}
+
+.skill-item img {
+  width: 50px;
+}
+
+.life-at-company {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.life-at-company img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.similar-heading {
+  margin-top: 40px;
+}
+
+.similar-jobs-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+.similar-job-card {
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+.similar-job-card img {
+  height: 60px;
+}
+.similar-job-card h1 {
+  font-size: 14px;
+}
+similar-jobs-description {
+  font-size: 14px;
+}
+.similar-jobs-logo-title-rating-card {
+  display: flex;
+  align-items: center;
+}
+.similar-jobs-logo-title-rating-card img {
+  height: 48px;
+  width: 48px;
+  margin: 10px;
+}
+.loader-container,
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.failure-view img {
+  width: 300px;
+}
+.job-details-container {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 30px;
+  color: #ffffff;
+}
+
+.job-card {
+  background-color: #272727;
+  border-radius: 12px;
+  padding: 30px;
+}
+
+/* ---------- HEADER ---------- */
+
+.job-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.job-title-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.company-logo {
+  width: 58px;
+  height: 58px;
+}
+
+.job-title {
+  font-size: 22px;
+  margin: 0;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.star-icon {
+  color: #fbbf24;
+}
+
+.rating {
+  font-size: 14px;
+}
+
+/* ---------- META ROW ---------- */
+
+.job-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meta-left {
+  display: flex;
+  gap: 20px;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #cbd5e1;
+  font-size: 14px;
+}
+
+.package {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* ---------- DESCRIPTION ---------- */
+
+.description-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.description-header h1 {
+  font-size: 20px;
+}
+
+.description-header a {
+  color: #6366f1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.job-description {
+  margin-top: 12px;
+  line-height: 1.6;
+  color: #e5e7eb;
+}
+
+/* ---------- SKILLS ---------- */
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.skill-item img {
+  width: 50px;
+  height: 50px;
+}
+
+.skill-item p {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+/* ---------- LIFE AT COMPANY ---------- */
+
+.life-at-company {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.life-at-company p {
+  flex: 1;
+  line-height: 1.6;
+}
+
+.life-at-company img {
+  width: 300px;
+  border-radius: 8px;
+}
+.similarJobs-location-type-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}

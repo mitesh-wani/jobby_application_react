@@ -1,0 +1,69 @@
+.filter-container {
+  display: flex;
+  flex-direction: column;
+}
+.employee-type-list,
+.salry-range-list {
+  display: flex;
+  flex-direction: column;
+}
+.type-list,
+.salry-list {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+/*
+input {
+  padding: 0;
+  margin: 0;
+  width: 5px;
+} */
+.employmentTypeId,
+.salaryRangeId {
+  width: 35px;
+  margin: 0;
+}
+.type-list input,
+.salry-list input {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.filter-container {
+  padding: 16px;
+  width: 250px;
+}
+
+.employee-type-list,
+.salry-range-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.type-list,
+.salry-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.type-list input,
+.salry-list input {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.type-list label,
+.salry-list label {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.filter-container hr {
+  border: none;
+  border-top: 1px solid #d7dfe9;
+  margin: 20px 0;
+}
