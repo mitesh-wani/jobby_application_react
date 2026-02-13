@@ -47,39 +47,39 @@ class Login extends Component {
     const {username, password, errorMsg} = this.state
     console.log('err')
     return (
-      <div className="container">
+      <div className='container'>
         <form onSubmit={this.handleSubmit}>
           <img
-            className="logo-img-login"
-            src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
-            alt="website logo"
+            className='logo-img-login'
+            src='https://assets.ccbp.in/frontend/react-js/logo-img.png'
+            alt='website logo'
           />
-          <div className="login-card">
-            <label htmlFor="username">Username:</label>
+          <div className='login-card'>
+            <label htmlFor='username'>Username:</label>
             <br />
             <input
-              type="text"
-              id="username"
+              type='text'
+              id='username'
               value={username}
-              placeholder="USERNAME"
+              placeholder='USERNAME'
               onChange={this.handleUsernameChange}
               required
             />
           </div>
           <div>
-            <label htmlFor="password">Password:</label>
+            <label htmlFor='password'>Password:</label>
             <br />
             <input
-              type="password"
-              id="password"
+              type='password'
+              id='password'
               value={password}
-              placeholder="PASSWORD"
+              placeholder='PASSWORD'
               onChange={this.handlePasswordChange}
               required
             />
           </div>
-          <button type="submit">Login</button>
-          {errorMsg !== '' && <p className="alert-text">{errorMsg}</p>}
+          <button type='submit'>Login</button>
+          {errorMsg !== '' && <p className='alert-text'>{errorMsg}</p>}
         </form>
       </div>
     )
